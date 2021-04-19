@@ -1,0 +1,145 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Karla", sans-serif;
+	font-size: 16px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #f3f3f3;
+}
+
+
+/* clearfix */
+.main-block::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.main-block {
+	border-radius: 10px;
+	margin-top: 100px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0px #e2e2e2;
+	overflow:hidden;
+}
+
+
+
+.why-us {
+	float: right;
+	width: 50%;
+	min-height: 350px;
+	padding-left: 60px;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+	color: hsl(204, 43%, 93%);
+	background-color: #4abebd;
+}
+
+.monthly-sub {
+	float: left;
+	width: 50%;
+	min-height: 350px;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+	color: hsl(204, 43%, 93%);
+	background-color: hsl(179, 62%, 43%);
+}
+.monthly-sub .content {
+	padding-left: 10%;
+}
+
+.main-content {
+	min-height: 300px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.main-content h1 {
+	color: hsl(179, 62%, 43%);
+}
+
+.main-content span {
+	font-size: 22px;
+	font-weight: 700;
+	color: hsl(71, 73%, 54%);
+}
+
+
+.main-content p {
+	font-size: 20px;
+	line-height: 1.8;
+	color: hsl(218, 22%, 67%);
+}
+
+
+h2, .monthly-price span {
+	color: #fff;
+}
+
+
+.monthly-price span {
+	vertical-align: middle;
+}
+
+.monthly-price span:nth-child(1) {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.monthly-price span:nth-child(2) {
+	margin-left: 10px;
+	color: #80d2dd;
+}
+
+.monthly-sub p {
+	color: hsl(204, 43%, 93%);
+}
+
+.monthly-sub button {
+	display: block;
+	width: 80%;
+	font-family: "Karla", sans-serif;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
+	
+	border: none;
+	border-radius: 5px;
+	background-color: hsl(71, 73%, 54%);
+	box-shadow: 0 12px 19px -2px #838c8e91;
+}
+
+.monthly-sub button:active {
+	box-shadow: inset 0px 6px 5px 0px #838c8e30;
+}
+
+
+.monthly-sub button:focus {
+outline:0 !important;
+border: none;
+}
+
+.why-us ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+.why-us li {
+	margin-bottom: 10px;
+}
+
+.why-us h2 {
+	margin-bottom: 26px;
+}
